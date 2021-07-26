@@ -1,0 +1,11 @@
+framework module MetechCallSdk {
+  umbrella header "MetechCallSdk.h"
+
+  export *
+  module * { export * }
+}
+
+module MetechCallSdk.Swift {
+    header "MetechCallSdk-Swift.h"
+    requires objc
+}
