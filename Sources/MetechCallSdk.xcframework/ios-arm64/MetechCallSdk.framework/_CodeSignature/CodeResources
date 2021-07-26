@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/MetechCallSdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		3xmQbGZ1/4aYLZBlSuw3wML0WY0=
+		SX0YyOl8w/PCG2vvENlU3hhlFA0=
 		</data>
 		<key>Modules/MetechCallSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Gypuz2ooo/5aodNe8oa2SunK/U0=
+		aLxktnYFlrwRSZA3uCMwNqy2ruc=
 		</data>
 		<key>Modules/MetechCallSdk.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/MetechCallSdk.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		3xmQbGZ1/4aYLZBlSuw3wML0WY0=
+		SX0YyOl8w/PCG2vvENlU3hhlFA0=
 		</data>
 		<key>Modules/MetechCallSdk.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		Gypuz2ooo/5aodNe8oa2SunK/U0=
+		aLxktnYFlrwRSZA3uCMwNqy2ruc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -72,14 +72,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9yZaPz15qPuout2lmDaG54Aq2iEUA28MTPSuSp9H2RM=
+			44+6LQ8rNkJj4FQiCU2qjtCKu1zGykBp1f93Iv+s3tY=
 			</data>
 		</dict>
 		<key>Modules/MetechCallSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			877hbNZtskB70JMNUftrlK4fBRX34CqNOzWu52wL5QA=
+			2PB9KW/qalIpWum7A0fwWdbDv9YenPQTqP6Ze/vhMK8=
 			</data>
 		</dict>
 		<key>Modules/MetechCallSdk.swiftmodule/arm64.swiftdoc</key>
@@ -93,14 +93,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9yZaPz15qPuout2lmDaG54Aq2iEUA28MTPSuSp9H2RM=
+			44+6LQ8rNkJj4FQiCU2qjtCKu1zGykBp1f93Iv+s3tY=
 			</data>
 		</dict>
 		<key>Modules/MetechCallSdk.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			877hbNZtskB70JMNUftrlK4fBRX34CqNOzWu52wL5QA=
+			2PB9KW/qalIpWum7A0fwWdbDv9YenPQTqP6Ze/vhMK8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

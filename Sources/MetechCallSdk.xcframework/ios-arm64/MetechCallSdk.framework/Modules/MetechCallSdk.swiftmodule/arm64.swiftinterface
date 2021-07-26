@@ -64,26 +64,8 @@ public enum CallState : Swift.Int {
   public var voipRegistry: PushKit.PKPushRegistry!
   public var callDelegate: linphonesw.CallDelegate!
   final public let callKitProvider: CallKit.CXProvider
-  @Combine.Published @_projectedValueProperty($callState) public var callState: linphonesw.Call.State {
-    get
-    set
-    _modify
-  }
-  public var $callState: Combine.Published<linphonesw.Call.State>.Publisher {
-    get
-    @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
-    set
-  }
-  @Combine.Published @_projectedValueProperty($login) public var login: Swift.Bool {
-    get
-    set
-    _modify
-  }
-  public var $login: Combine.Published<Swift.Bool>.Publisher {
-    get
-    @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
-    set
-  }
+  public var callState: linphonesw.Call.State
+  public var login: Swift.Bool
   public func mute()
   public func unmute()
   public func speakerOn()
