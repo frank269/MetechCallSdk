@@ -38,7 +38,7 @@ import PackageDescription
 let package = Package(
   name: "MetechCallSdk",
   platforms: [
-     .iOS(.v14)
+     .iOS(.v11)
   ],
   products: [
     .library(
