@@ -1,0 +1,115 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
+// swift-module-flags: -target arm64-apple-ios14.5 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name MetechCallSdk
+import AVFoundation
+import CallKit
+import Foundation
+@_exported import MetechCallSdk
+import PushKit
+import Swift
+import linphonesw
+extension NSNotification.Name {
+  public static var registrationState: Foundation.Notification.Name {
+    get
+  }
+  public static var callState: Foundation.Notification.Name {
+    get
+  }
+}
+public enum LoginState : Swift.Int {
+  case None
+  case Progress
+  case Ok
+  case Cleared
+  case Failed
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum CallState : Swift.Int {
+  case Idle
+  case IncomingReceived
+  case OutgoingInit
+  case OutgoingProgress
+  case OutgoingRinging
+  case OutgoingEarlyMedia
+  case Connected
+  case StreamsRunning
+  case Pausing
+  case Paused
+  case Resuming
+  case Referred
+  case Error
+  case End
+  case PausedByRemote
+  case UpdatedByRemote
+  case IncomingEarlyMedia
+  case Updating
+  case Released
+  case EarlyUpdatedByRemote
+  case EarlyUpdating
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers public class MetechCall : ObjectiveC.NSObject, PushKit.PKPushRegistryDelegate, Foundation.ObservableObject, CallKit.CXProviderDelegate {
+  public var lc: linphonesw.Core!
+  public var proxy_cfg: linphonesw.ProxyConfig!
+  public var call: linphonesw.Call!
+  public var mIterateTime: Foundation.Timer?
+  public var voipRegistry: PushKit.PKPushRegistry!
+  public var callDelegate: linphonesw.CallDelegate!
+  final public let callKitProvider: CallKit.CXProvider
+  @Combine.Published @_projectedValueProperty($callState) public var callState: linphonesw.Call.State {
+    get
+    set(value)
+    _modify
+  }
+  public var $callState: Combine.Published<linphonesw.Call.State>.Publisher {
+    get
+    @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
+    set(value)
+  }
+  @Combine.Published @_projectedValueProperty($login) public var login: Swift.Bool {
+    get
+    set(value)
+    _modify
+  }
+  public var $login: Combine.Published<Swift.Bool>.Publisher {
+    get
+    @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
+    set(value)
+  }
+  public func mute()
+  public func unmute()
+  public func speakerOn()
+  public func speakerOff()
+  @objc override dynamic public init()
+  @objc public func pushRegistry(_ registry: PushKit.PKPushRegistry, didUpdate pushCredentials: PushKit.PKPushCredentials, for type: PushKit.PKPushType)
+  @objc public func pushRegistry(_ registry: PushKit.PKPushRegistry, didReceiveIncomingPushWith payload: PushKit.PKPushPayload, for type: PushKit.PKPushType, completion: @escaping () -> Swift.Void)
+  @objc public func provider(_ provider: CallKit.CXProvider, didActivate audioSession: AVFAudio.AVAudioSession)
+  @objc public func provider(_ provider: CallKit.CXProvider, didDeactivate audioSession: AVFAudio.AVAudioSession)
+  @objc public func provider(_ provider: CallKit.CXProvider, perform action: CallKit.CXAnswerCallAction)
+  @objc public func provider(_ provider: CallKit.CXProvider, perform action: CallKit.CXEndCallAction)
+  @objc public func providerDidReset(_ provider: CallKit.CXProvider)
+  @objc public func provider(_ provider: CallKit.CXProvider, perform action: CallKit.CXStartCallAction)
+  @objc public func provider(_ provider: CallKit.CXProvider, perform action: CallKit.CXSetMutedCallAction)
+  @objc public func provider(_ provider: CallKit.CXProvider, perform action: CallKit.CXSetHeldCallAction)
+  public func register(username: Swift.String, password: Swift.String, domain: Swift.String)
+  public func logout()
+  public var destination: Swift.String
+  public func makeCall(destination: Swift.String)
+  public func acceptCall()
+  public func declineCall()
+  public func endFromCallKit()
+  public func endCall()
+  public func incommingCallKit(destination: Swift.String)
+  public func startCallKit(destination: Swift.String)
+  public func endCallKit()
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
+  @objc deinit
+}
