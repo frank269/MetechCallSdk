@@ -56,21 +56,11 @@ public enum CallState : Swift.Int {
     get
   }
 }
-@objc @_inheritsConvenienceInitializers public class MetechCall : ObjectiveC.NSObject, PushKit.PKPushRegistryDelegate, CallKit.CXProviderDelegate {
-  public var lc: linphonesw.Core!
-  public var proxy_cfg: linphonesw.ProxyConfig!
-  public var call: linphonesw.Call!
-  public var mIterateTime: Foundation.Timer?
-  public var voipRegistry: PushKit.PKPushRegistry!
-  public var callDelegate: linphonesw.CallDelegate!
-  final public let callKitProvider: CallKit.CXProvider
-  public var callState: linphonesw.Call.State
-  public var login: Swift.Bool
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class MetechCall : ObjectiveC.NSObject, PushKit.PKPushRegistryDelegate, CallKit.CXProviderDelegate {
   public func mute()
   public func unmute()
   public func speakerOn()
   public func speakerOff()
-  @objc override dynamic public init()
   @objc public func pushRegistry(_ registry: PushKit.PKPushRegistry, didUpdate pushCredentials: PushKit.PKPushCredentials, for type: PushKit.PKPushType)
   @objc public func pushRegistry(_ registry: PushKit.PKPushRegistry, didReceiveIncomingPushWith payload: PushKit.PKPushPayload, for type: PushKit.PKPushType, completion: @escaping () -> Swift.Void)
   @objc public func provider(_ provider: CallKit.CXProvider, didActivate audioSession: AVFAudio.AVAudioSession)
@@ -83,15 +73,10 @@ public enum CallState : Swift.Int {
   @objc public func provider(_ provider: CallKit.CXProvider, perform action: CallKit.CXSetHeldCallAction)
   public func register(username: Swift.String, password: Swift.String, domain: Swift.String)
   public func logout()
-  public var destination: Swift.String
   public func makeCall(destination: Swift.String)
   public func acceptCall()
   public func declineCall()
-  public func endFromCallKit()
   public func endCall()
-  public func incommingCallKit(destination: Swift.String)
-  public func startCallKit(destination: Swift.String)
-  public func endCallKit()
   @objc deinit
 }
 extension MetechCallSdk.LoginState : Swift.Equatable {}

@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/MetechCallSdk-Swift.h</key>
 		<data>
-		SUAHeC0HX/ctTa3wn+eK+BsDXA0=
+		y4ENzYcLaMKBgo1fR7NLinT7SZ0=
 		</data>
 		<key>Headers/MetechCallSdk.h</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/MetechCallSdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		CO/nqZGkyHZ9yVR8RXaOhWkTG/U=
+		AMiJ4vbxAMXhA2TYKqYXoRPIm14=
 		</data>
 		<key>Modules/MetechCallSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		JhyXZPdu/Aw+teqXXmGZ2HT0wGw=
+		tPbe7VJLGCj4WGZ7jpYK6JoUq3E=
 		</data>
 		<key>Modules/MetechCallSdk.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/MetechCallSdk.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		CO/nqZGkyHZ9yVR8RXaOhWkTG/U=
+		AMiJ4vbxAMXhA2TYKqYXoRPIm14=
 		</data>
 		<key>Modules/MetechCallSdk.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		JhyXZPdu/Aw+teqXXmGZ2HT0wGw=
+		tPbe7VJLGCj4WGZ7jpYK6JoUq3E=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,7 +51,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KS3yUawmyKU25TJe77LE53uBxeoAkajPQrF8kgDWjKQ=
+			CIG6ReZVZ2eTAe2/6Iqsn1xbPGjPHNUCWEPkUl4+Beo=
 			</data>
 		</dict>
 		<key>Headers/MetechCallSdk.h</key>
@@ -72,14 +72,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			D+NhiUkNKYejY4FaokA1BVIuNqjhtWAxqL6wr+plM5c=
+			+E0sAoXehGDgPJHejJNz4omOBjUmsD8jK7zyXJRVodk=
 			</data>
 		</dict>
 		<key>Modules/MetechCallSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZA+nO1UGxJXp5EmZ3ayn9bV4RwHfYCFJ6bolYpPJYZc=
+			nJebDCoDmSKIo7FyG75VUxuiBxxjXn/FqzzMZkJ/sqU=
 			</data>
 		</dict>
 		<key>Modules/MetechCallSdk.swiftmodule/arm64.swiftdoc</key>
@@ -93,14 +93,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			D+NhiUkNKYejY4FaokA1BVIuNqjhtWAxqL6wr+plM5c=
+			+E0sAoXehGDgPJHejJNz4omOBjUmsD8jK7zyXJRVodk=
 			</data>
 		</dict>
 		<key>Modules/MetechCallSdk.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZA+nO1UGxJXp5EmZ3ayn9bV4RwHfYCFJ6bolYpPJYZc=
+			nJebDCoDmSKIo7FyG75VUxuiBxxjXn/FqzzMZkJ/sqU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

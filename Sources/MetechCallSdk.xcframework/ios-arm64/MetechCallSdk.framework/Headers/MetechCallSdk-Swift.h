@@ -221,7 +221,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 SWIFT_CLASS("_TtC13MetechCallSdk10MetechCall")
 @interface MetechCall : NSObject <CXProviderDelegate, PKPushRegistryDelegate>
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 - (void)pushRegistry:(PKPushRegistry * _Nonnull)registry didUpdatePushCredentials:(PKPushCredentials * _Nonnull)pushCredentials forType:(PKPushType _Nonnull)type;
 - (void)pushRegistry:(PKPushRegistry * _Nonnull)registry didReceiveIncomingPushWithPayload:(PKPushPayload * _Nonnull)payload forType:(PKPushType _Nonnull)type withCompletionHandler:(void (^ _Nonnull)(void))completion;
 - (void)provider:(CXProvider * _Nonnull)provider didActivateAudioSession:(AVAudioSession * _Nonnull)audioSession;
