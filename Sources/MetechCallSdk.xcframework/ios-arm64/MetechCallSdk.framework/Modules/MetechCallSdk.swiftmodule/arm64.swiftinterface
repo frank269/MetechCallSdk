@@ -56,7 +56,7 @@ public enum CallState : Swift.Int {
     get
   }
 }
-@objc @_inheritsConvenienceInitializers public class MetechCall : ObjectiveC.NSObject, PushKit.PKPushRegistryDelegate, Foundation.ObservableObject, CallKit.CXProviderDelegate {
+@objc @_inheritsConvenienceInitializers public class MetechCall : ObjectiveC.NSObject, PushKit.PKPushRegistryDelegate, CallKit.CXProviderDelegate {
   public var lc: linphonesw.Core!
   public var proxy_cfg: linphonesw.ProxyConfig!
   public var call: linphonesw.Call!
@@ -92,7 +92,6 @@ public enum CallState : Swift.Int {
   public func incommingCallKit(destination: Swift.String)
   public func startCallKit(destination: Swift.String)
   public func endCallKit()
-  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
 }
 extension MetechCallSdk.LoginState : Swift.Equatable {}
