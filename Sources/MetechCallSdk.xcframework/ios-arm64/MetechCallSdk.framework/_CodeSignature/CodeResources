@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		/ckQXE7jtXlffDD4hxQyY4lAaKE=
+		hXPxoAWiRu3a/LlQiRalqu4TKyk=
 		</data>
 		<key>Modules/MetechCallSdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/MetechCallSdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		71tYtFoq4tg/SE3Hn3ts3TVmGgo=
+		5FVQoTSTfr4/DEfv2+aTsyM3vwU=
 		</data>
 		<key>Modules/MetechCallSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		hkmW97ukOTUldEoNH1WCCWm7Dvw=
+		M8aj/5nHawkdtOTHJ7sdw39nHwA=
 		</data>
 		<key>Modules/MetechCallSdk.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/MetechCallSdk.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		71tYtFoq4tg/SE3Hn3ts3TVmGgo=
+		5FVQoTSTfr4/DEfv2+aTsyM3vwU=
 		</data>
 		<key>Modules/MetechCallSdk.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		hkmW97ukOTUldEoNH1WCCWm7Dvw=
+		M8aj/5nHawkdtOTHJ7sdw39nHwA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -72,14 +72,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QK2R9Z3nPvw3alAthBMAOIcb0NxA7URC3LK+HC7E9gw=
+			7bfcXKP6EG3T6Yd//EFF4+e/XmsANqSVTZpbfvaRat8=
 			</data>
 		</dict>
 		<key>Modules/MetechCallSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			U+nI7aF9njtwIk2FR9abZQssn5kq/41TCplNetqtqe4=
+			/WKihCEuCTQ8FYdcJkCo98mQqR1uWASxWDO/LGbmBJQ=
 			</data>
 		</dict>
 		<key>Modules/MetechCallSdk.swiftmodule/arm64.swiftdoc</key>
@@ -93,14 +93,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QK2R9Z3nPvw3alAthBMAOIcb0NxA7URC3LK+HC7E9gw=
+			7bfcXKP6EG3T6Yd//EFF4+e/XmsANqSVTZpbfvaRat8=
 			</data>
 		</dict>
 		<key>Modules/MetechCallSdk.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			U+nI7aF9njtwIk2FR9abZQssn5kq/41TCplNetqtqe4=
+			/WKihCEuCTQ8FYdcJkCo98mQqR1uWASxWDO/LGbmBJQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

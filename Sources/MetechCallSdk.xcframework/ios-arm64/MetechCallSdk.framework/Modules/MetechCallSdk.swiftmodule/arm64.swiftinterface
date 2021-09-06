@@ -74,7 +74,7 @@ public enum CallState : Swift.Int {
   @objc public func provider(_ provider: CallKit.CXProvider, perform action: CallKit.CXSetHeldCallAction)
   public func register(username: Swift.String, password: Swift.String, domain: Swift.String)
   public func logout()
-  public func makeCall(destination: Swift.String)
+  public func makeCall(destination: Swift.String, call_id: Swift.String, user_id: Swift.String)
   public func acceptCall()
   public func declineCall()
   public func endCall()
